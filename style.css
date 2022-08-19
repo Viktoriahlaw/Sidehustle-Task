@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #383232;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+}
+
+section.hero {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 100vh;
+  max-width: 800px;
+  margin: auto;
+}
+
+.hero .hero-image {
+  background-image: url("https://images.unsplash.com/photo-1658647362351-e4bc75c66cfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80");
+  background-position: center;
+}
+.hero-logo {
+  display: flex;
+  height: 5rem;
+  background-color: rgba(0, 0, 0, 0.315);
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(10rem);
+  padding: 8px 0;
+}
+
+.hero-logo img {
+  height: 100%;
+}
+.hero-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(247, 247, 247);
+}
+
+.photo-credit {
+  color: white;
+  font-size: smaller;
+  font-weight: lighter;
+  position: absolute;
+  bottom: 7px;
+  left: 80px;
+  text-decoration: underline;
+}
+
+.form-text {
+  padding: 8px;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+.main-text {
+  margin-bottom: 1rem;
+  padding-left: 8px;
+  padding: 8px;
+  margin: 20px;
+}
+
+.tip {
+  padding-left: 8px;
+  margin: 20px;
+}
+.hero-login .form-input {
+  padding: 30px;
+  display: flex;
+  background-color: #fff;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.212);
+}
+
+.form-input label {
+  font-size: 8px;
+  color: rgb(12, 11, 11);
+}
+
+.form-1 {
+  margin-right: 30px;
+}
+
+.form-input input {
+  background-color: transparent;
+  border: 1px solid rgba(61, 59, 59, 0.507);
+  border-radius: 5px;
+  padding: 4px 5px;
+  height: 20px;
+  width: 160px;
+  color: rgb(56, 56, 56);
+  margin: 7px auto;
+}
+
+.form-input input:focus {
+  outline: none;
+  border: 2px solid rgba(21, 64, 255, 0.712);
+}
+.submit {
+  margin-left: 30px;
+}
+
+.submit button {
+  padding: 7px 25px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(40, 121, 121);
+  color: #fff;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: small;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(40, 121, 121);
+  font-weight: bold;
+  font-size: smaller;
+}
+
+div.password {
+  position: relative;
+}
+.error {
+  display: none;
+  font-size: 10px;
+  position: absolute;
+  top: 47px;
+  left: 0;
+  color: #ff0000;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sign Up page</title>
+  </head>
+  <body>
+    <section class="hero">
+      <div class="hero-image">
+        <div class="hero-logo">
+          <img
+            src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"
+            alt="logo"
+          />
+          <h1>MAKN</h1>
+        </div>
+
+        <span class="photo-credit">Photo by Emanuel Turbuc on Unsplash </span>
+      </div>
+      <div class="hero-login">
+        <div class="form-text">
+          <p class="main-text">
+            This is not a real online service! You know you need something like
+            this in your life to help realize your deepest dreams.
+            <br />
+            Sign up <em>now</em> to get started.
+          </p>
+          <p class="tip">You <em>know</em> you want to.</p>
+        </div>
+        <div class="form-input">
+          <div class="form-1">
+            <div>
+              <label for="firstname"> FIRST NAME</label> <br />
+              <input type="text" name="firstname" id="firstname" />
+            </div>
+
+            <div>
+              <label for="email"> EMAIL</label> <br />
+              <input type="text" name="email" id="email" />
+            </div>
+
+            <div class="password">
+              <label for="password"> PASSWORD</label> <br />
+              <input type="password" name="password" id="password" />
+              <small class="error">Passwords do not match</small>
+            </div>
+          </div>
+
+          <div class="form-2">
+            <div>
+              <label for="lastname"> LAST NAME</label> <br />
+              <input type="text" name="lastname" id="lastname" />
+            </div>
+
+            <div>
+              <label for="phone"> PHONE NUMBER</label> <br />
+              <input type="tel" name="phone" id="phone" />
+            </div>
+
+            <div>
+              <label for="password-2">CONFIRM PASSWORD </label> <br />
+              <input type="password" name="password-2" id="password-2" />
+            </div>
+          </div>
+        </div>
+
+        <div class="submit">
+          <button class="button">Create Account</button>
+          <p>Already have an account? <a href="#">Log in</a></p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
